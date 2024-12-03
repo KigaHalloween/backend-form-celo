@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+   
+    <title>Cadastro de Usuários</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Usuários</h1>
+    </header>
+
+    <main>
+        <div class = "container">
+        <form action="http://localhost:3000/cadastrar_usuario.php" method="POST">
+            <fieldset>
+                <legend class = "legend">Informações do Usuário</legend>
+
+                
+                <input placeholder="Nome Completo" type="text" id="nome" name="nome" class="nome" required><br><br>
+
+                
+                <input placeholder="E-mail" type="email" id="email" name="email" class="email" required><br><br>
+
+               
+                <input placeholder="Senha" type="password" id="senha" name="senha" class="senha" required><br><br>
+
+                <label for="tipoUsuario" class = "tipoUsuario">Tipo de Usuário:</label><br>
+                <select id="tipoUsuario" name="tipoUsuario" required>
+                    <option value="cliente">Cliente</option>
+                    <option value="funcionario">Funcionário</option>
+                </select><br><br>
+
+                <button type="submit" class="button">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+    </main>
+
+
+</body>
+</html>

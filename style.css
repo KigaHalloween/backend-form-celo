@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    position: center;
+    width:  340px;
+    height: 290px;
+    border-radius: 38px; 
+}
+
+.fieldset{
+    width: 340px;
+    height: 290px;
+}
+.container form{
+    justify-content: center;
+    position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #142727;
+    height:fit-content;
+    border-radius: 18px; 
+}
+
+.legend {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: #ffffff;
+}
+
+.nome{
+    color: rgb(2, 53, 97);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tipoUsuario{
+   color:#ffffff;
+}
+
+.form #senha{
+    border-radius: 80;
+    font-size: larger;
+}
